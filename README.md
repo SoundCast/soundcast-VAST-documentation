@@ -3,7 +3,7 @@ Soundcast VAST integration
 
 This guide covers the latest version of the SoundCast VAST Integration. It uses VAST 2.0, and helps to integrate with the SoundCast platform.
 
-## VAST uery
+## VAST query
 
 The query should look like this :
 ```
@@ -12,10 +12,10 @@ http://delivery.api.soundcast.fm/soundcastid/$SOUNDCASTID?format=VAST&ip=$IP&ua=
 
 ### Parameters
 
-$SOUNDCASTID : Is the tag id, it will be provided by us
-$IP : IP (Optional)
-$USER_AGENT : User Agent (Optional)
-$COOKIE : Listener cookie (Optional)
+* $SOUNDCASTID : Is the tag id, it will be provided by us
+* $IP : IP (Optional)
+* $USER_AGENT : User Agent (Optional)
+* $COOKIE : Listener cookie (Optional)
 
 ### Sample query
 
